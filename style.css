@@ -1120,6 +1120,6 @@ input[type="submit"]:hover {
 input[type="email"],
 select,
 textarea {
-  width: 93% !important;
+  width: 90% !important;
 }
 }
