@@ -32,7 +32,7 @@ capacarga {
 }
 .capacarga div:nth-child(3) {
   left: 56px;
-  animation-delay: 0;
+  animation-delay: 0s;
 }
 @keyframes lds-facebook {
   0% {
@@ -709,7 +709,7 @@ input[type="submit"]:hover {
 }
 
 #checkmenu {
-  display: no;
+  display: none;
 }
 
 /* Medias */
@@ -745,7 +745,7 @@ input[type="submit"]:hover {
     width: 48%;
   }
 
-  #yo{
+  #yo {
     width: 30%;
   }
 
@@ -757,11 +757,9 @@ input[type="submit"]:hover {
     display: block;
   }
 
-  #sobremitexto p{
+  #sobremitexto p {
     margin: 9px;
   }
-
-
 }
 
 @media (max-width: 804px) {
@@ -774,15 +772,9 @@ input[type="submit"]:hover {
   #conlinks {
     display: block !important;
   }
-
-  
-
- 
-
 }
 
 @media (max-width: 480px) {
-
   #yo img {
     width: 210px !important;
     margin-left: auto;
@@ -790,12 +782,9 @@ input[type="submit"]:hover {
     display: block;
   }
 
-
   body {
     font-size: 15px;
   }
-
-
 
   .cer {
     max-width: 290px;
@@ -810,17 +799,17 @@ input[type="submit"]:hover {
     font-size: 15px;
   }
 
-  #yo{
+  #yo {
     margin: 0px !important;
   }
 
-  #firma{
+  #firma {
     width: 42%;
     margin-right: 0px;
   }
 
   #codigo {
-       display: none;
+    display: none;
   }
 
   #sobremitexto {
@@ -831,6 +820,12 @@ input[type="submit"]:hover {
     font-size: 12px;
   }
 
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 90% !important;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -1116,10 +1111,5 @@ input[type="submit"]:hover {
     width: 96%;
   }
 
-  input[type="text"],
-input[type="email"],
-select,
-textarea {
-  width: 90% !important;
-}
+
 }
