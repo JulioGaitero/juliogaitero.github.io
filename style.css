@@ -780,6 +780,14 @@ input[type="submit"]:hover {
     min-width: 350px;
   }
 
+  #yo img {
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 39px;
+    display: block;
+  }
+
 }
 
 @media (max-width: 1200px) {
