@@ -430,6 +430,10 @@ p {
 
 /* Trabajos */
 
+.contrabajos {
+  padding-top: 0px !important;
+}
+
 #trabajos {
   width: 81%;
   margin-left: auto;
