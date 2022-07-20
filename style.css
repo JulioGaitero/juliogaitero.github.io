@@ -1115,4 +1115,11 @@ input[type="submit"]:hover {
   #codigo {
     width: 96%;
   }
+
+  input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 93% !important;
+}
 }
