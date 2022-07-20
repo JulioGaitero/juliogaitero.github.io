@@ -774,6 +774,12 @@ input[type="submit"]:hover {
   #conlinks {
     display: block !important;
   }
+
+  .cer {
+    max-width: 350px;
+    min-width: 350px;
+  }
+
 }
 
 @media (max-width: 1200px) {
