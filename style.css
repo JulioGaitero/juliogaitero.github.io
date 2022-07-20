@@ -775,17 +775,60 @@ input[type="submit"]:hover {
     display: block !important;
   }
 
-  .cer {
-    max-width: 350px;
-    min-width: 350px;
-  }
+  
+
+ 
+
+}
+
+@media (max-width: 320px) {
 
   #yo img {
-    width: 290px;
+    width: 210px !important;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 39px;
     display: block;
+  }
+
+
+  body {
+    font-size: 15px;
+  }
+
+
+
+  .cer {
+    max-width: 290px;
+    min-width: 290px;
+  }
+
+  #sobremitexto h2 {
+    font-size: 27px;
+  }
+
+  .letracabecera {
+    font-size: 15px;
+  }
+
+  #yo{
+    margin: 0px !important;
+  }
+
+  #firma{
+    width: 42%;
+    margin-right: 0px;
+  }
+
+  #codigo {
+       display: none;
+  }
+
+  #sobremitexto {
+    padding-top: 12px;
+  }
+
+  #titulacionesbarras h3 {
+    font-size: 12px;
   }
 
 }
