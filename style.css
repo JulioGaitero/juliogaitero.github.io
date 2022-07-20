@@ -781,7 +781,7 @@ input[type="submit"]:hover {
 
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
 
   #yo img {
     width: 210px !important;
