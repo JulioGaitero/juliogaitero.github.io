@@ -101,6 +101,10 @@ input {
     
   }
 
+  p{
+    width: 90%;
+  }
+
   #divcontra {
     width: 90%;
     position: relative;
