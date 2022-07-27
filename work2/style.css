@@ -84,9 +84,21 @@ input {
 
  
   #contenedor {
-    width: 80%;
-    margin-top: 69px;
-    margin-bottom: 69px;
+    background-color: #e5e9f0;
+    height: auto;
+    border-radius: 12px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    position: unset;
+    left:  unset;
+    top: unset;
+    transform: unset;
+    margin: auto;
+    
   }
 
   #divcontra {
