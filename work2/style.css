@@ -18,6 +18,7 @@ body {
   align-items: center;
   align-content: center;
   flex-direction: column;
+  margin-top: 69px;
 
 }
 
@@ -82,9 +83,7 @@ input {
 
 @media (max-width: 772px) {
 
-  body{
-    padding: 63px;
-  }
+ 
   #contenedor {
     width: 80%;
   }
