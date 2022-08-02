@@ -664,7 +664,8 @@ input[type="submit"]:hover {
   bottom: 0;
 }
 
-#pie h4 {
+#trabajos h4 {
+  color:#df3620;
 }
 
 #pie p {
