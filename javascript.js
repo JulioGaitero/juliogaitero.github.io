@@ -44,14 +44,14 @@ window.addEventListener("load", function () {
 // Efecto Revelado
 
 window.addEventListener("scroll", revelar);
-
+window.addEventListener("load", revelar);
 function revelar() {
   var revelados = document.querySelectorAll(".revelar");
 
   for (var i = 0; i < revelados.length; i++) {
     var windowheight = window.innerHeight;
     var revealartop = revelados[i].getBoundingClientRect().top;
-    var revealarpoint = 150;
+    var revealarpoint = 270;
 
     if (revealartop < windowheight - revealarpoint) {
         revelados[i].classList.add("active");
