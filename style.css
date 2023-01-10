@@ -214,7 +214,7 @@ p {
 }
 
 .naranja {
-  color: #df3620;
+  color: #df3620 !important;
 }
 
 #sobremidescripcion {
@@ -344,6 +344,44 @@ p {
   transition: all 1.2s;
 }
 
+
+#experiencia_div {
+  width: 69%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-content: center;
+justify-content: center;
+}
+
+#contenido_experiencia{
+width: 100%;
+
+}
+
+#contenido_experiencia li{
+  margin-top: 33px;
+}
+
+.nombre_empresa{
+  padding: 0px;
+  margin: 6px;
+}
+
+.fecha_empresa{
+  padding: 0px;
+  margin: 6px;
+  color:#151515;
+  font-size: 15px;
+}
+
+.tarea_empresa{
+  padding: 0px;
+  margin: 12px 6px;
+}
 /* Codigo */
 
 #conocimientos {
@@ -1143,6 +1181,5 @@ input[type="submit"]:hover {
   #codigo {
     width: 96%;
   }
-
 
 }

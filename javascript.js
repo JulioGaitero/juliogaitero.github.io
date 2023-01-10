@@ -143,14 +143,20 @@ window.onload = () => {
     tercero.addEventListener('click', () => {
       scrollSuave('#conocimientos', 500, 0)
     })
-  
+
     let cuarto = links[3]
     cuarto.addEventListener('click', () => {
-      scrollSuave('#trabajos', 500, 0)
+      scrollSuave('#experiencia_div', 500, 0)
     })
+  
   
     let quinto = links[4]
     quinto.addEventListener('click', () => {
+      scrollSuave('#trabajos', 500, 0)
+    })
+  
+    let sexto = links[5]
+    sexto.addEventListener('click', () => {
       scrollSuave('#contacto', 500, 0)
     })
     
