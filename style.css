@@ -359,11 +359,14 @@ justify-content: center;
 
 #contenido_experiencia{
 width: 100%;
-
+background-image: url("imx/cv.png");
+background-repeat: no-repeat;
+background-position: right bottom;
 }
 
 #contenido_experiencia li{
   margin-top: 33px;
+ 
 }
 
 .nombre_empresa{
