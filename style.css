@@ -469,6 +469,60 @@ background-position: right bottom;
   color: #3b7baa;
 }
 
+/* Certificaciones */
+
+#certificaciones h2{
+  color: #df3620;
+font-size: 27px;
+text-align: left;
+}
+
+#certificaciones {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+
+}
+
+#certi_izquierda{
+
+  width: 33vw;
+  height: 420px;
+  text-align: left;
+  padding-right: 33px;
+  background-image: url(imx/certificados.png);
+  background-size: 69%;
+background-repeat: no-repeat;
+background-position-x: left;
+
+}
+
+#certi_derecha{
+
+  width: 27vw;
+ 
+
+}
+
+#certificaciones p {
+  padding-right: 48px;
+}
+
+#certificaciones li {
+  margin-bottom: 9px;
+  padding-left: 12px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#certificaciones ul{
+  list-style: disc;
+  margin-top: 72px;
+}
+
 /* Trabajos */
 
 .contrabajos {

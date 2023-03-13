@@ -138,27 +138,33 @@ window.onload = () => {
     segundo.addEventListener('click', () => {
       scrollSuave('#titulaciones', 500, 0)
     })
-  
+
     let tercero = links[2]
     tercero.addEventListener('click', () => {
+      scrollSuave('#certificaciones', 500, 0)
+    })
+  
+    let cuarto = links[3]
+    cuarto.addEventListener('click', () => {
       scrollSuave('#conocimientos', 500, 0)
     })
 
-    let cuarto = links[3]
-    cuarto.addEventListener('click', () => {
+    let quinto = links[4]
+    quinto.addEventListener('click', () => {
       scrollSuave('#experiencia_div', 500, 0)
     })
   
   
-    let quinto = links[4]
-    quinto.addEventListener('click', () => {
+    let sexto = links[5]
+    sexto.addEventListener('click', () => {
       scrollSuave('#trabajos', 500, 0)
     })
   
-    let sexto = links[5]
-    sexto.addEventListener('click', () => {
+    let septimo = links[6]
+    septimo.addEventListener('click', () => {
       scrollSuave('#contacto', 500, 0)
     })
+
     
   }
   
