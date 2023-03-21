@@ -408,6 +408,7 @@ background-position: right bottom;
 
 .logolink {
   display: flex;
+  padding-left: 21%;
 }
 
 .titlink {
