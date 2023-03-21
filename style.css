@@ -166,12 +166,14 @@ capacarga {
   width: 42vw;
 }
 
-#yo img {
+#yo img{
 
-  margin-left: 19%;
-  margin-right: auto;
-  padding-top: 51px;
+  width: 330px;
+  margin-left: 27%;
+  margin-top: 9%;
+
 }
+
 
 p {
   line-height: 21px;
