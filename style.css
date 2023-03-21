@@ -840,6 +840,23 @@ input[type="submit"]:hover {
     transform: scale(1.4);
   }
 
+  #certi_izquierda{
+    width: 60vw;
+    text-align: left;
+    padding-right: 33px;
+    margin: auto;
+    height: 240px;
+    background: none;
+  }
+
+  #certi_derecha {
+    width: 60vw;
+    text-align: left;
+    padding-right: 33px;
+    margin: auto;
+    height: 240px;
+  }
+
   #titulaciones {
     width: 60vw;
     margin-left: auto;
@@ -959,6 +976,32 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 1200px) {
+  #certi_derecha {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-right: 0px;
+  }
+
+  #certi_izquierda {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-right: 0px;
+  }
+
+  #experiencia_div{
+
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-right: 0px;
+
+  }
+  
   .letracabecera {
     margin: 0px !important;
   }
@@ -1043,6 +1086,8 @@ input[type="submit"]:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left:  0px;
+    
   }
 
   #contitulo {
