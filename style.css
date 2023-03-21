@@ -894,7 +894,7 @@ input[type="submit"]:hover {
   #yo img {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 51px;
+    padding-top: 0px;
     display: block;
   }
 
@@ -982,10 +982,12 @@ input[type="submit"]:hover {
     margin-right: auto;
     text-align: left;
     padding-right: 0px;
+    margin-top: 45px;
   }
 
   #certi_izquierda {
     width: 93%;
+    
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -1087,7 +1089,7 @@ input[type="submit"]:hover {
     align-items: center;
     justify-content: center;
     padding-left:  0px;
-    
+
   }
 
   #contitulo {
