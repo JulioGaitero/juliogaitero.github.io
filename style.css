@@ -822,6 +822,10 @@ input[type="submit"]:hover {
   .pie_trabajo_tecnologias {
     display: none;
   }
+
+  #redes_sociales {
+    font-size: 0.9em;
+  }
 }
 
 @media (max-width: 1212px) {
