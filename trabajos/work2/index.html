@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/1f5dd68f9d.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <body>
+    <div id="contenedor">
+      <h1>Generador de constraseñas aleatorias</h1>
+      <p>Recuerda cambiar tus contraseñas, al menos una vez cada 3 meses.</p>
+      <img src="candado.png" />
+      <div id="divcontra" >
+        <input id="contrafinal" type="text" />
+        <span id="icono"></span>
+        <i id="reload" class="fa-solid fa-rotate-right"></i>  </div>
+      <p>Longitud de la contraseña:</p>
+
+      <p id="testpass">0</p>
+      <input id="barra" type="range" min="1" max="24" step="1" value="12" />
+      <div id="checks">
+        <input type="checkbox" class="cheke" id="caracteres1" checked/>
+        <label for="vehicle1"> ABC</label>
+        <input type="checkbox" class="cheke" id="caracteres2" checked/>
+        <label for="vehicle2"> abc</label>
+        <input type="checkbox" class="cheke" id="caracteres3" checked/>
+        <label for="vehicle3"> 123</label>
+        <input type="checkbox" class="cheke" id="caracteres4" />
+        <label for="vehicle3"> #$&</label>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

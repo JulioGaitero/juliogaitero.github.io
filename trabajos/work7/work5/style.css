@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(img/fondo.svg);
+  background-color: #81a1c1;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  font-size: 12px;
+  box-sizing: border-box;
+  outline: none;
+  color:#4c566a;
+}
+
+#contenedor {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  height: 90vh;
+  max-height: 900px;
+  background: #eceff4;
+  border-radius: 6px;
+  box-shadow: 0 0.3px 2.2px rgba(0, 0, 0, 0.011),
+    0 0.7px 5.3px rgba(0, 0, 0, 0.016), 0 1.3px 10px rgba(0, 0, 0, 0.02),
+    0 2.2px 17.9px rgba(0, 0, 0, 0.024), 0 4.2px 33.4px rgba(0, 0, 0, 0.029),
+    0 10px 80px rgba(0, 0, 0, 0.04);
+   
+
+}
+
+
+
+#izq_sup {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#circulos {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #bf616a;
+  box-shadow: 14px 0 0 0 #ebcb8b, 28px 0 0 0 #a3be8c;
+}
+
+#circulos2 {
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  background-color: #d8dee9;
+  box-shadow: -6px 0 0 0 #d8dee9, 6px 0 0 0 #d8dee9;
+}
+
+#izq_centro {
+  padding: 24px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.icono_listado {
+  margin-bottom: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.icono_listado img {
+  width: 15px;
+  height: 15px;
+  margin-right: 12px;
+}
+
+#menu_tags{
+  margin-top: 66px;
+  color: #5e81ac;
+}
+
+#cont_izquierda {
+  width: 230px;
+  border-right: 1px solid #d8dee9;
+  position: relative;
+  background-color: #e5e9f0;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+
+#cont_centro{
+  width: 810px;
+  padding: 12px 21px;
+  overflow-y: auto;
+  overflow-x: hidden;
+ 
+
+}
+
+#tareas{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 33px;
+}
+
+#tareas{
+  border-bottom: 1px solid #4c566a7c;
+  padding-bottom: 21px;
+}
+
+#tareas a{
+  color:#4c566a;
+  text-decoration: none;
+  padding: 20px;
+}
+
+#tareas a:hover{
+    border-bottom: 2px solid #5e81ac;
+}
+
+.activo{
+   border-bottom: 2px solid #5e81ac;
+}
+
+#chequeo_tareas{
+  flex: 1;
+  height: 100%;
+  padding-right: 8px;
+}
+
+.tarea{
+  margin: 12px;
+  display: flex;
+  align-items: center;
+gap: 1em;
+  
+}
+
+.tarea span{
+  margin-left: auto;
+ 
+}
+
+.aprobado{
+  background-color: #a3be8c48;
+  color: #7e9c64;
+  padding: 4px;
+  border-radius: 9px;
+}
+
+.denegado{
+  background-color: #bf616a63;
+  color: #af505a;
+  padding: 4px;
+  border-radius: 9px;
+}
+
+.pendiente{
+  background-color: #d086706e;
+  color:#b86952;
+  padding: 4px;
+  border-radius: 9px;
+}
+
+h1, h2{
+  font-size: 21px;
+}
+
+h2{
+  margin-top: 42px;
+  border-bottom: 1px solid #4c566a7c ;
+  padding-bottom: 20px;
+}
+
+.espera{
+  background-color: #e5e9f0;
+  color:#4c566a;
+  padding: 4px;
+  border-radius: 9px;
+}
+
+h3{
+  padding: 21px 30px;
+margin-right: auto;
+}
+
+.cuadrante{
+  width: 210px;
+  height: 120px;
+  border-radius: 9px;
+  margin-bottom: 21px;
+  display: flex;
+  flex-direction: column;
+  padding: 9px;
+ 
+}
+
+.cabecera_cuadrante{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 12px;
+  
+}
+
+#manana{
+background-color: #ebcb8b54;
+}
+
+#tarde{
+background-color: #d0867041;
+}
+
+#noche{
+  background-color: #b48ead54;
+}
+
+#cont_derecha{
+  width: 300px;
+  border-left: 1px solid #d8dee9;
+  background-color: #e5e9f027;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+}
+
+h4{
+  padding-left: 12px;
+}
+
+.img_turno{
+  width: 18px;
+}
+
+.turno_menu{
+  margin-left: auto;
+  margin-right: 9px;
+}
+
+.miembros{
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content:space-around;
+}
+
+.miembros img {
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  margin-right: 4px;
+  object-fit: cover;
+}
+
+@media (max-width: 1250px){
+
+  #cont_izquierda{
+    display: none;
+  }
+
+  #contenedor{
+
+  }
+}
+
+@media (max-width: 992px){
+
+  h3{
+    display: none;
+  }
+
+  #contenedor{
+   overflow: hidden;
+   flex-direction: column;
+   align-items: center;
+    align-content: center;
+   
+  }
+
+  #cont_derecha{
+    overflow-y: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+    border:0px;
+    padding-top: 21px;
+
+  }
+
+  #cont_centro{
+    overflow-y: auto;
+    width: 80%;
+    margin: auto;
+  
+    margin-top: 33px;
+   
+  }
+
+  #cont_izquierda{
+   
+
+  }
+}
+
+@media (max-width: 902px){
+  #cont_derecha{
+    flex-direction: column;
+   
+  }
+
+  #contenedor{
+   
+  }
+
+  .cuadrante{
+    width: 80%;
+  }
+
+  #tareas a{
+    padding: 0px;
+    border-bottom: 0px;
+  }
+
+  #tareas a:hover{
+    color: #5e81ac !important;
+    border-bottom: 0px;
+
+  }
+
+  .activo{
+    color: #5e81ac !important;
+  }
+
+  #cont_centro{
+    width: 90%;
+    flex: 3;
+    flex-basis: 0;
+   
+  }
+
+  #cont_derecha{
+    width: 90%;
+   justify-content: space-around;
+   flex: 1;
+   flex-basis: 0;
+   padding-top: 102px;
+   margin-top: 21px;
+  }
+
+  
+}
+
+@media (max-width: 450px){
+
+  #tareas{
+    display: none;
+  }
+
+  h1{
+    margin-top: 42px;
+    border-bottom: 1px solid #4c566a7c;
+    padding-bottom: 20px;
+  }
+
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="12">
+	<title>iconmonstr-link-1-svg</title>
+	<defs>
+		<image  width="24" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAMAAAAc9R5vAAAAAXNSR0IB2cksfwAAAE5QTFRF9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVlNRKD+QAAABp0Uk5TADCf7/+vQICg0FAgwGAQsN9/8M9w4JBPvz+xTedtAAAAvUlEQVR4nG2Q2wKDIAxDQSMgDnDopvv/H125KIjmxXJKYyhjF/GuRz8I1koiqWu4Ah47gY96Ei/61m5mJG5DRR139dKRMwH0FZ1KRV5HLQY6zO80oQHf5JnDmF0A1eZcEgcvOTmzK2ASl4VH9zVzVXOzsuyfucwcoEyicJ59Puf/S6Doz8fMv/kFHtCxsDIMuXN7dDh3YctW4kS6ZLfrQh2wHzkXUzVoxdh/01ZyHlJtzltHslbCeXjFb/xZf6+iCBdzH89qAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="0" y="0"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>cerrar-svg</title>
+	<style>
+		.s0 { fill: none;stroke: #de6a6a;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m20 11h-7"/>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m20 17h-9"/>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m20 23h-7"/>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m8 13l-4 4 4 4"/>
+</svg>
