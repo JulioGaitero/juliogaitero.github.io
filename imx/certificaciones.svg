@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" width="17" height="16">
+	<title>certificaciones</title>
+	<defs>
+		<image  width="17" height="15" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAMAAAA1b9QjAAAAAXNSR0IB2cksfwAAADNQTFRF3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpqFKHVWAAAABF0Uk5TACKq/7IFgfmCL9ACffpO3lZJTRunAAAAR0lEQVR4nLXOSQrAIBBE0dJyiFP0/qcNKqI0bvOgFv1XDQxK0yhs1nmS/rErhMgphnGnXLiUnIC38lQbKOGi53M9if1Y5IMfULoCCJyW69sAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="1"/>
+</svg>
