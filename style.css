@@ -856,9 +856,6 @@ input[type="submit"]:hover {
   #listado_experiencia {
     background-image: none;
   }
-  #nombre {
-    display: none;
-  }
 
   #listado_estudios {
     flex-direction: column;
