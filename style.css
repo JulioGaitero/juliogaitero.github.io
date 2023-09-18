@@ -625,23 +625,29 @@ input[type="submit"]:hover {
 }
 
 #up {
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  background-color: #fff;
+  border-radius: 12px;
+  width: 52px;
+  height: 52px;
+  background-color: #5a5780;
+  display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   transition: var(--transition-speed);
   cursor: pointer;
-  color: #fff;
   text-decoration: none;
   font-size: 25px;
   font-weight: bolder;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 12px;
+  right: 12px;
+  padding: 0px;
   display: none;
+  opacity: 0.7;
+}
+
+#up img {
+  opacity: 0.8;
 }
 
 #up:hover {
@@ -649,8 +655,64 @@ input[type="submit"]:hover {
   border-bottom: none;
 }
 
+#up img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 #menuicon {
   display: none;
+}
+
+.rrss a:hover {
+  border-bottom: 0px;
+}
+
+.rrss {
+  --background-color: #5a5780;
+  --icon-color: #fff;
+  opacity: 0.7;
+  position: fixed;
+  top: 40%;
+  left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  padding: 8px;
+  background: var(--background-color);
+  border-radius: 12px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+.rrss-github {
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  outline: none;
+}
+
+.rrss-github-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--icon-color);
+  opacity: 0.8;
+  transition: transform 300ms cubic-bezier(0.38, -0.12, 0.24, 1.91),
+    opacity 250ms ease-in-out;
+}
+.rrss-github:hover .rrss-github-icon,
+.rrss-github:focus .rrss-github-icon {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 @media (max-width: 1200px) {
@@ -784,6 +846,10 @@ input[type="submit"]:hover {
   #estudios_der {
     width: 60%;
   }
+
+  .rrss {
+    display: none;
+  }
 }
 
 @media (max-width: 900px) {
@@ -848,5 +914,15 @@ input[type="submit"]:hover {
   #formulario {
     width: 100%;
     margin-top: 1.5em;
+  }
+}
+
+@media (max-width: 665px) {
+  #up {
+    width: 21px;
+  }
+
+  .rrss {
+    display: none;
   }
 }
