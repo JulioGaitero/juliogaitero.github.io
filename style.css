@@ -131,7 +131,7 @@ a:hover {
 }
 
 .azul {
-  color: #356aa0;
+  color: #5E81AC;
 }
 
 .resaltar {
@@ -256,6 +256,20 @@ img.imagen:hover::after {
 
 .icono {
   width: 60px;
+}
+
+#pie h4{
+  font-size: 1em;
+}
+
+#pie h4 a{
+  display: flex;
+  align-items: center;
+ 
+} 
+
+#redes_sociales a:hover {
+  opacity: 0.8;
 }
 
 #redes_sociales ul {
@@ -884,10 +898,7 @@ input[type="submit"]:hover {
   #descripcion_imagen p {
     text-align: justify;
   }
-  #pie #logo {
-    display: none;
-  }
-
+ 
   #estudios_izq {
     width: 40%;
   }
@@ -970,5 +981,10 @@ input[type="submit"]:hover {
 
   .rrss {
     display: none;
+  }
+
+  #pie {
+    flex-direction: column-reverse;
+    align-items: center;
   }
 }
