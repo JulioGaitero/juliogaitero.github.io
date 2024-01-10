@@ -4,8 +4,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  color: #5a5780;
-  background-color: #ffffff;
+  color: #2E3440;
+  background-color: #FFFFFF;
   animation: fadein 1.2s;
   animation-fill-mode: backwards;
 }
@@ -25,7 +25,7 @@ body {
 #todo {
   display: flex;
   width: 1120px;
-  margin: 0 auto;
+  margin: 15px auto;
   flex-direction: column;
 }
 
@@ -41,9 +41,35 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  border-bottom: 1px solid #c4c4c4;
   height: 60px;
+  position: relative;
 }
+
+#cabecera::after {
+  content: "";
+  position: absolute;
+  width: 98%;
+  border-bottom: 1px solid #D8DEE9;
+  bottom: 0;
+}
+
+#pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1em;
+  position: relative;
+}
+
+#pie::before {
+  content: "";
+  position: absolute;
+  width: 98%;
+  border-bottom: 1px solid #D8DEE9;
+  top: 0;
+}
+
+
 
 #logo {
   height: 60px;
@@ -51,7 +77,7 @@ h1 {
 
 #logo a {
   font-weight: 300;
-  color: #de6a6a;
+  color: #BF616A;
   text-decoration: none;
   letter-spacing: 0;
 }
@@ -77,14 +103,13 @@ h1 {
 }
 
 a {
-  color: #de6a6a;
+  color: #BF616A;
   text-decoration: none;
   font-weight: 700;
 }
 
 a:hover {
-  color: #34a1cd;
-  border-bottom: #34a1cd 1px solid;
+  color: #5E81AC;
 }
 
 #contenido {
@@ -102,7 +127,7 @@ a:hover {
 }
 
 .naranja {
-  color: #de6a6a;
+  color: #BF616A;
 }
 
 .azul {
@@ -241,14 +266,6 @@ img.imagen:hover::after {
 
 #redes_sociales li {
   margin: 0 0.6em;
-}
-
-#pie {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 1em;
-  border-top: 1px solid #c4c4c4;
 }
 
 #contenido_estudios {
@@ -444,50 +461,59 @@ img.imagen:hover::after {
   margin: 1em;
   height: 240px;
   width: 396px;
-  position: relative;
   box-shadow: 0px 0px 12px rgb(230, 230, 230) !important;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   opacity: 0.84;
   border-radius: 6px;
   background-position: center;
+  position: relative;
 }
 
 #video_presentacion {
-  position: absolute;
-  top: 0;
-  right: 0;
+  position:absolute;
+  top: 0px;
+  right: 0px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   align-items: center;
   height: 33px;
   margin: 0.5em;
-  padding: 0px 9px;
+  padding: 0px;
   background-color: #fff;
   border-radius: 6px !important;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
-  color:#de6a6a;
+  box-sizing: border-box;
 }
 
 #video_presentacion img {
-  padding-right: 12px;
+  margin: 0px 6px;
 }
 
 #video_presentacion h3 {
   font-size: 1em;
+  padding: 3px 8px;
+}
+
+#pie_trabajo {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 33px;
+  margin: 0.5em;
+  padding: 0px;
+  background-color: #fff;
+  border-radius: 6px !important;
+  width: calc(100% - 1em);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
 }
 
 .trabajo:hover {
   opacity: 0.93;
-}
-
-.trabajo a:hover{
-  color:#de6a6a;
-  border-bottom: 0px;
 }
 
 #trabajo1 {
@@ -522,23 +548,10 @@ img.imagen:hover::after {
   background-image: url("imx/Proyectos/work8.jpg");
 }
 
-
 #listado_codigos a:hover {
   border: 0;
   padding: 0;
   margin: 0;
-}
-
-#pie_trabajo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 33px;
-  margin: 0.5em;
-  padding: 0px;
-  background-color: #fff;
-  border-radius: 6px !important;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1) !important;
 }
 
 #pie_trabajo h3 {
@@ -573,7 +586,7 @@ img.imagen:hover::after {
 }
 
 #contecontacto label {
-  color: #de6a6a;
+  color: #BF616A;
 }
 
 input[type="text"],
@@ -603,7 +616,7 @@ textarea:focus {
 }
 
 input[type="submit"] {
-  color: #de6a6a;
+  color: #BF616A;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -627,7 +640,7 @@ input[type="submit"]:hover {
 }
 
 #contacto h2 {
-  color: #de6a6a;
+  color: #BF616A;
   text-align: left;
   margin-top: 0px;
   font-size: 24px;
@@ -664,7 +677,7 @@ input[type="submit"]:hover {
   border-radius: 12px;
   width: 52px;
   height: 52px;
-  background-color: #5a5780;
+  background-color: #2E3440;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -705,7 +718,7 @@ input[type="submit"]:hover {
 }
 
 .rrss {
-  --background-color: #5a5780;
+  --background-color: #2E3440;
   --icon-color: #fff;
   opacity: 0.7;
   position: fixed;

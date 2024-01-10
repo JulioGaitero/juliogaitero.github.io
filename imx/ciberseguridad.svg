@@ -1,9 +1,11 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-	<title>ciberseguridad</title>
+	<title>ciberseguridad-svg</title>
 	<defs>
 		<image  width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAMNQTFRF3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpqlLMeAwAAAEF0Uk5TQmwAAX3oeXA/Q8KO/4LQPAz3BuvlFvQEyD7x7layi3Md/PselpPd2eOjn4TEWf1YR7bvBz2t5qs6DgNMuMw0TzFq/MxjAAAAlUlEQVR4nF3L5xKCQAwE4LiCoqKgYkVFrNh7r+//VCbKzdy4f3L75UKUAJA0TDPFE2mLMlmeOZuT50fBIbdYAsoCHlCp1gj1BtAU8IFWG4SOrSVgALrhr/X6XAQGaj+MYaRgLGD/RX54qkTxyUTB9Asz/cBgmFtYLKWEK6w3IHe7A/aHY3Q6Axf/Src7tDye5JAOr/cHNtwN1U6LWwcAAAAASUVORK5CYII="/>
+		<image  width="16" height="16" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAAAXNSR0IB2cksfwAAAAxQTFRFv2FqAAAAv2Fqv2FqYNqv9QAAAAR0Uk5T/wA348SSc50AAAA4SURBVHicY2DNYQ1gYC1gDGBgdGB0YHB0YHRkcGBgYGQIYWAQRSLAAMEFK3FkACKwNtbQ0AAwAQBHtghj5RwbIAAAAABJRU5ErkJggg=="/>
 	</defs>
 	<style>
 	</style>
-	<use id="Background" href="#img1" x="0" y="0"/>
+	<use id="img1" href="#img1" x="0" y="0"/>
+	<use id="Capa 1" style="opacity: .4;mix-blend-mode: hue" href="#img2" x="0" y="0"/>
 </svg>

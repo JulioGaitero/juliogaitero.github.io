@@ -1,9 +1,11 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="12">
-	<title>iconmonstr-link-1-svg</title>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 24" width="28" height="24">
+	<title>link-svg</title>
 	<defs>
-		<image  width="24" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAMAAAAc9R5vAAAAAXNSR0IB2cksfwAAAE5QTFRF9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVl9mVlNRKD+QAAABp0Uk5TADCf7/+vQICg0FAgwGAQsN9/8M9w4JBPvz+xTedtAAAAvUlEQVR4nG2Q2wKDIAxDQSMgDnDopvv/H125KIjmxXJKYyhjF/GuRz8I1koiqWu4Ah47gY96Ei/61m5mJG5DRR139dKRMwH0FZ1KRV5HLQY6zO80oQHf5JnDmF0A1eZcEgcvOTmzK2ASl4VH9zVzVXOzsuyfucwcoEyicJ59Puf/S6Doz8fMv/kFHtCxsDIMuXN7dDh3YctW4kS6ZLfrQh2wHzkXUzVoxdh/01ZyHlJtzltHslbCeXjFb/xZf6+iCBdzH89qAAAAAElFTkSuQmCC"/>
+		<image width="28" height="24" id="img1" href="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMTQiIGhlaWdodD0iMTIiPgoJPHRpdGxlPmljb25tb25zdHItbGluay0xLXN2ZzwvdGl0bGU+Cgk8ZGVmcz4KCQk8aW1hZ2UgIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNSIgaWQ9ImltZzEiIGhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQmdBQUFBWkNBTUFBQUFjOVI1dkFBQUFBWE5TUjBJQjJja3Nmd0FBQUU1UVRGUkY5bVZsOW1WbDltVmw5bVZsOW1WbDltVmw5bVZsOW1WbDltVmw5bVZsOW1WbDltVmw5bVZsOW1WbDltVmw5bVZsOW1WbDltVmw5bVZsOW1WbDltVmw5bVZsOW1WbDltVmw5bVZsOW1WbE5SS0QrUUFBQUJwMFVrNVRBRENmNy8rdlFJQ2cwRkFnd0dBUXNOOS84TTl3NEpCUHZ6K3hUZWR0QUFBQXZVbEVRVlI0bkcyUTJ3S0RJQXhEUVNNZ0RuRG9wdnYvSDEyNUtJam14WEpLWXloakYvR3VSejhJMWtvaXFXdTRBaDQ3Z1k5NkVpLzYxbTVtSkc1RFJSMTM5ZEtSTXdIMEZaMUtSVjVITFFZNnpPODBvUUhmNUpuRG1GMEExZVpjRWdjdk9UbXpLMkFTbDRWSDl6VnpWWE96c3V5ZnVjd2NvRXlpY0o1OVB1Zi9TNkRvejhmTXYva0ZIdEN4c0RJTXVYTjdkRGgzWWN0VzRrUzZaTGZyUWgyd0h6a1hVelZveGRoLzAxWnlIbEp0emx0SHNsYkNlWGpGYi94WmY2K2lDQmR6SDg5cUFBQUFBRWxGVGtTdVFtQ0MiLz4KCTwvZGVmcz4KCTxzdHlsZT4KCTwvc3R5bGU+Cgk8dXNlIGlkPSJMYXllciIgaHJlZj0iI2ltZzEiIHg9IjAiIHk9IjAiLz4KPC9zdmc+"/>
+		<image  width="24" height="24" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAQMAAADaua+7AAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAv2FquuTSQgAAAAJ0Uk5TAP9bkSK1AAAAVklEQVR4nA3MsQ2AIBBA0W9MpDG5EXATVtFFwMq52ERGuJJEwnnFax+sHcIAmRANksDmDmGZwmqRYAl5M/EZpKuTP2VYo1tFy43uoKfzxrwr6k3zrvIDRzggW0R4WmIAAAAASUVORK5CYII="/>
 	</defs>
 	<style>
 	</style>
-	<use id="Layer" href="#img1" x="0" y="0"/>
+	<use id="link" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+	<use id="Capa 1" style="opacity: .3;mix-blend-mode: multiply" href="#img2" x="2" y="0"/>
 </svg>

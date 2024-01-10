@@ -68,3 +68,6 @@ let links = {
 let nav = `<nav class="rrss">${links.github}${links.instagram}${links.linkedin}${links.mail}</nav>`;
 
 document.body.innerHTML += nav;
+
+
+

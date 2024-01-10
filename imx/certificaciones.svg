@@ -1,9 +1,11 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" width="17" height="16">
-	<title>certificaciones</title>
+	<title>certificaciones-svg</title>
 	<defs>
-		<image  width="17" height="15" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAMAAAA1b9QjAAAAAXNSR0IB2cksfwAAADNQTFRF3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpqFKHVWAAAABF0Uk5TACKq/7IFgfmCL9ACffpO3lZJTRunAAAAR0lEQVR4nLXOSQrAIBBE0dJyiFP0/qcNKqI0bvOgFv1XDQxK0yhs1nmS/rErhMgphnGnXLiUnIC38lQbKOGi53M9if1Y5IMfULoCCJyW69sAAAAASUVORK5CYII="/>
+		<image width="17" height="15" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAMAAAA1b9QjAAAAAXNSR0IB2cksfwAAADNQTFRF3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpq3mpqFKHVWAAAABF0Uk5TACKq/7IFgfmCL9ACffpO3lZJTRunAAAAR0lEQVR4nLXOSQrAIBBE0dJyiFP0/qcNKqI0bvOgFv1XDQxK0yhs1nmS/rErhMgphnGnXLiUnIC38lQbKOGi53M9if1Y5IMfULoCCJyW69sAAAAASUVORK5CYII="/>
+		<image  width="17" height="15" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPAQMAAAA4f7ZSAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAv2FquuTSQgAAAAJ0Uk5TAP9bkSK1AAAAKUlEQVR4nGNgfsDAwP+DgUH+DwND/X8Ghv//G8AYBMrLGRiUlLBjoFoA6k0NhFFHmv0AAAAASUVORK5CYII="/>
 	</defs>
 	<style>
 	</style>
-	<use id="Background" href="#img1" x="0" y="1"/>
+	<use id="img1" href="#img1" transform="matrix(1,0,0,1,0,1)"/>
+	<use id="Capa 1" style="opacity: .5;mix-blend-mode: hue" href="#img2" x="0" y="1"/>
 </svg>

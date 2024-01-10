@@ -1,9 +1,9 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" width="18" height="16">
-	<title>programacion</title>
+	<title>programacion-svg</title>
 	<defs>
-		<image  width="18" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAMAQMAAABV3H//AAAAAXNSR0IB2cksfwAAAAZQTFRF3mpqAAAACkq8GwAAAAJ0Uk5T/wDltzBKAAAAG0lEQVR4nGNggALd7RAMAma3IRgE9L9DMBQAAJA0BjdQwQrrAAAAAElFTkSuQmCC"/>
+		<image  width="18" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAMAQMAAABV3H//AAAAAXNSR0IB2cksfwAAAAZQTFRFv2FqAAAAvjJR9QAAAAJ0Uk5T/wDltzBKAAAAG0lEQVR4nGNggALd7RAMAma3IRgE9L9DMBQAAJA0BjdQwQrrAAAAAElFTkSuQmCC"/>
 	</defs>
 	<style>
 	</style>
-	<use id="Background" href="#img1" x="0" y="4"/>
+	<use id="img1" href="#img1" x="0" y="4"/>
 </svg>

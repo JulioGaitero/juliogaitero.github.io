@@ -1,9 +1,9 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-	<title>sistemas</title>
+	<title>sistemas-svg</title>
 	<defs>
-		<image  width="16" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOAQMAAAAc4Q7JAAAAAXNSR0IB2cksfwAAAAZQTFRF3mpqAAAACkq8GwAAAAJ0Uk5T/wDltzBKAAAAJElEQVR4nGNgYGCo/8fgwARCHkwMLkwMTmDS4xFUEIiAChgYAIXdBomP7iMpAAAAAElFTkSuQmCC"/>
+		<image  width="16" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOAQMAAAAc4Q7JAAAAAXNSR0IB2cksfwAAAAZQTFRFv2FqAAAAvjJR9QAAAAJ0Uk5T/wDltzBKAAAAJElEQVR4nGNgYGCo/8fgwARCHkwMLkwMTmDS4xFUEIiAChgYAIXdBomP7iMpAAAAAElFTkSuQmCC"/>
 	</defs>
 	<style>
 	</style>
-	<use id="Background" href="#img1" x="0" y="2"/>
+	<use id="img1" href="#img1" x="0" y="2"/>
 </svg>

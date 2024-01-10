@@ -2,7 +2,7 @@
 	<title>menu-svg</title>
 	<style>
 		.s0 { fill: none } 
-		.s1 { fill: none;stroke: #de6a6a;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+		.s1 { fill: none;stroke: #BF616A;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
 	</style>
 	<path id="Layer" fill-rule="evenodd" class="s0" d="m0 0h24v24h-24z"/>
 	<path id="Layer" fill-rule="evenodd" class="s1" d="m20 11h-11"/>

@@ -1,9 +1,9 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-	<title>study</title>
+	<title>study-svg</title>
 	<defs>
-		<image  width="14" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQAQMAAAAcWtx5AAAAAXNSR0IB2cksfwAAAAZQTFRF3mpqAAAACkq8GwAAAAJ0Uk5T/wDltzBKAAAAFUlEQVR4nGNg4GEAIQ58yP4HjGQAAB5cAt9hYu1CAAAAAElFTkSuQmCC"/>
+		<image  width="14" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQAQMAAAAcWtx5AAAAAXNSR0IB2cksfwAAAAZQTFRFv2FqAAAAvjJR9QAAAAJ0Uk5T/wDltzBKAAAAFUlEQVR4nGNg4GEAIQ58yP4HjGQAAB5cAt9hYu1CAAAAAElFTkSuQmCC"/>
 	</defs>
 	<style>
 	</style>
-	<use id="Background" href="#img1" x="1" y="0"/>
+	<use id="img1" href="#img1" x="1" y="0"/>
 </svg>
