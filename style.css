@@ -56,9 +56,13 @@ h1 {
 #pie {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   padding: 1em;
   position: relative;
+}
+
+#pie #logo {
+  margin: 0 0.6em
 }
 
 #pie::before {
@@ -106,6 +110,7 @@ a {
   color: #BF616A;
   text-decoration: none;
   font-weight: 700;
+  transition: color 0.9s ease;
 }
 
 a:hover {
@@ -267,6 +272,11 @@ img.imagen:hover::after {
   align-items: center;
  
 } 
+
+#redes_sociales a {
+  opacity: 1;
+  transition: opacity 0.9s ease;
+}
 
 #redes_sociales a:hover {
   opacity: 0.8;
@@ -786,7 +796,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 1040px) {
   #todo {
-    width: 90%;
+    width: 100%;
   }
 
   #menuicon {
