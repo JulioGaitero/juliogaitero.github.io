@@ -1,17 +1,21 @@
+function toggleMenu() {
+  var menuicon = document.querySelector('.menuicon');
+  menuicon.classList.toggle('change');
+}
+
 window.addEventListener("DOMContentLoaded", (event) => {
   // Menu desplegable
 
-  const menuicon = document.querySelector("#menuicon");
+  const menuicon = document.querySelector(".menuicon");
   const menu = document.querySelector("#menu");
 
   menuicon.addEventListener("click", function () {
     menu.classList.toggle("mostrarmenu");
-    menuicon.classList.toggle("menuicon2");
   });
 
   menu.addEventListener("click", function () {
     menu.classList.toggle("mostrarmenu");
-    menuicon.classList.toggle("menuicon2");
+    toggleMenu();
   });
 
   let scrollToTop = document.getElementById("up");
@@ -68,6 +72,3 @@ let links = {
 let nav = `<nav class="rrss">${links.github}${links.instagram}${links.linkedin}${links.mail}</nav>`;
 
 document.body.innerHTML += nav;
-
-
-

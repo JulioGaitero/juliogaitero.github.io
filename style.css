@@ -13,6 +13,8 @@ body {
   scroll-behavior: smooth;
 }
 
+.menuicon {display: none;}
+
 @keyframes fadein {
   0% {
     opacity: 0.75;
@@ -25,7 +27,7 @@ body {
 #todo {
   display: flex;
   width: 1120px;
-  margin: 15px auto;
+  margin: 0px auto;
   flex-direction: column;
 }
 
@@ -62,7 +64,7 @@ h1 {
 }
 
 #pie #logo {
-  margin: 0 0.6em
+  margin: 0 0.6em;
 }
 
 #pie::before {
@@ -77,6 +79,7 @@ h1 {
 
 #logo {
   height: 60px;
+  margin-left: 0.6em !important;
 }
 
 #logo a {
@@ -90,6 +93,7 @@ h1 {
   height: 33px;
   margin-right: 0.3em;
   align-self: center;
+  margin-bottom: 1px;
 }
 
 #logo a:hover {
@@ -99,7 +103,7 @@ h1 {
 #menu ul {
   display: flex;
   list-style: none;
-  height: 15px;
+  height: 12px;
 }
 
 #menu li {
@@ -733,7 +737,7 @@ input[type="submit"]:hover {
   transform: scale(1.1);
 }
 
-#menuicon {
+.menu-btn {
   display: none;
 }
 
@@ -798,23 +802,36 @@ input[type="submit"]:hover {
   #todo {
     width: 100%;
   }
-
-  #menuicon {
-    display: block;
-    width: 60px;
-    height: 35px;
-    margin-left: 9px !important;
-    background-image: url(imx/menu.svg);
-    background-size: 48px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    transition-duration: 0.3s;
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #BF616A;
+    margin: 6px 0;
+    transition: 0.2s;
+    border-radius: 3px;
   }
+  
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);  }
+  
 
-  .menuicon2 {
-    background-image: url(imx/cerrar.svg) !important;
-    background-size: 57px;
-    background-position: center;
+  .menuicon {
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-right: 26px;
   }
 
   #menuicon:hover {
